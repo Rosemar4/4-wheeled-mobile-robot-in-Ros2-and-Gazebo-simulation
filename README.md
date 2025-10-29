@@ -1,6 +1,4 @@
-# 4-wheeled-mobile-robot-in-Ros2-and-Gazebo-simulation
 
-This project simulates a simple 4-wheeled differential drive robot cart in the Gazebo environment using ROS 2 Humble Hawksbill. It covers the creation of the robot model (URDF), necessary configuration files, and launch procedures to spawn, control, and visualize the robot.
 
 1. Prerequisites ⚙️
 Ensure you have the following installed on your system. This project specifically targets ROS 2 Humble running on WSL (Windows Subsystem for Linux).
