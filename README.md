@@ -1,4 +1,8 @@
- 1. Prerequisites ⚙️
+<img width="1366" height="768" alt="Screenshot (209)" src="https://github.com/user-attachments/assets/e0cde235-14e2-4e94-907a-dd8d2c69f63a" />
+_fig1: Final image of the 4 wheeled mobile robot on gazebo_
+
+
+1. Prerequisites ⚙️
 Ensure you have the following installed on your system. This project specifically targets ROS 2 Humble running on WSL (Windows Subsystem for Linux).
 
 ROS 2 Humble Hawksbill: The base distribution.
@@ -112,4 +116,4 @@ source ~/ros2_ws/install/setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=cmd_vel
 ```
 Now, the robot in Gazebo should respond to the key commands displayed in the terminal!
-<img width="1366" height="768" alt="Screenshot (209)" src="https://github.com/user-attachments/assets/e0cde235-14e2-4e94-907a-dd8d2c69f63a" />
+
