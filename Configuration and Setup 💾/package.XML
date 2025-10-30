@@ -1,0 +1,12 @@
+Update package.xml
+Make sure your package.xml declares the necessary dependencies for the build and execution.
+
+bash
+```
+  <depend>rclcpp</depend>
+  <depend>xacro</depend>
+  <depend>gazebo_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>ros_gz_sim</depend>
+  <depend>rviz2</depend>
+```
